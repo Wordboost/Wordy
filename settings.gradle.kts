@@ -13,9 +13,9 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Wordy"
-include ':app'
-include ':domain'
-include ':data'
-include ':remote'
-include ':local'
-include ':core'
+include(":app")
+include(":domain")
+include(":data")
+include(":local")
+include(":core")
+include(":remote")
